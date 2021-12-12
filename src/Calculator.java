@@ -14,7 +14,7 @@ public class Calculator {
         index:  012345
         length: кол-во элементов
          */
-
+        System.out.println("Введите Вашу фразу: ");
         String string = scanner.nextLine();
         System.out.println(string.charAt(0));
         System.out.println(string.charAt(string.length() - 1));
